@@ -2,6 +2,7 @@ language: node_js
 node_js: node
 services:
 - mongodb
+<<<<<<< HEAD
 deploy:
   provider: heroku
   api_key:
@@ -10,3 +11,6 @@ deploy:
   on:
     repo: Taradacktl/node-restaurants-app-mongoose-
     branch: feature/with-tests
+=======
+deploy:app:hidden-sea-60217
+>>>>>>> 2731faf54c179d88688a83f5cf7a2883dac2486d

@@ -2,15 +2,12 @@ language: node_js
 node_js: node
 services:
 - mongodb
-<<<<<<< HEAD
+
 deploy:
   provider: heroku
   api_key:
     secure: NyoPpweGMXANsw9l3ILC4fr8bngNzZVkKGN4pBQFUOYr9NbYbWSvppuSbygUOAmmb1msIlWMZCQJtjRfbzxNGfDrE+nXa+xHBWCudGR3o8bCBvcFyrhJQPXCt5jBkhyDP2ItKj7IrKMezGAEb4APNWnTruU1R0pJQUW++v4OJwXcVD3z5dDdZcfwrTS36nHKhyIfLWwyIgtcTCZnqYSadE50OHpDy1nDUPOV3w2ackl02inkg/yM59ZrZsbAOo4MaY7+68BrLcilunPV638zACljXn+iv4qHmXX2VWJpRkG+Y7iKfvmI5FuWyxurkW5Qty+kgh7CQznvCkE0rdixvvt5H7YJnU5PpNscmzgdz+utAaV21s6C/4MEHDnpfCGykGLBK5qKpTW9yStVAnJpUxmSLYL07icrX2a2LypBgPwS8OE/3hLYgStoPp0Ij0Vs3L2ZoGmVhdsr4yraP6OCZf1RNf0ggaeHIeJ1jWcAogFO/ZYUahWELOygKQZ7gbAhc2iLkcOfpYvVys7U8WMX8tkY7GCdQejvCH7EkUv/c0dG24fUn9j4d9vYso6K/92vWn1CM70j0LUbV1KzhT659GyXaGmm3I3of+5y5mjDLCDClRhJApUy+ejjA0J2RrrBXw0eP8i9pfOJQxys43Y2ha3bxkgcYOEzUsiRVwhbOl4=
-  app: node-restaurants-app-mongoose-
+  app: hidden-sea-60217
   on:
     repo: Taradacktl/node-restaurants-app-mongoose-
     branch: feature/with-tests
-=======
-deploy:app:hidden-sea-60217
->>>>>>> 2731faf54c179d88688a83f5cf7a2883dac2486d
